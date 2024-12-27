@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+body {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+}
+section.left,
+section.right {
+  flex: 1;
+}
+.left {
+  margin: 20px;
+  padding: 30px;
+  color: white;
+}
+.right {
+  background-color: white;
+  margin: 20px;
+  padding: 30px;
+  border: 8px, solid, aqua;
+  color: black;
+  display: flex; /* Enables Flexbox on the section */
+  justify-content: column; /* Adjusts spacing between child elements */
+  align-items: center; /* Aligns child elements vertically */
+}
+.box1,
+.box2 {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.logo {
+  border-radius: 50%; /* Make the corners fully rounded */
+}
+img {
+  border-radius: 50%;
+  height: 200px;
+}
+.code {
+  opacity: 0.5;
+}
+.first {
+  padding-right: 30px;
+}
+.link div {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 10px;
+  width: 50%;
+  background-color: antiquewhite;
+}
+.link div a {
+  color: black;
+  text-decoration: none;
+}
+.box1 {
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 100px;
+}
+.box1 h1 {
+  font-size: 30px;
+}
+.box1 p {
+  font-size: 20px;
+}
+.box2 img {
+  width: 100%;
+  height: auto;
+}
+.icons a {
+  text-decoration: none; /* Remove the underline */
+  font-weight: bold;
+  padding: 3px;
+}
+a:hover {
+  color: red; /* Change the color on hover */
+  text-decoration: underline; /* Add underline on hover */
+}
+footer{
+    text-align: center;
+}
